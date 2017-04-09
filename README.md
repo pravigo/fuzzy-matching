@@ -25,10 +25,10 @@ and returns aggregated de-identifed results to inform Business Intelligence work
 1. Create empty [FuzzyMatching] database and run the [FuzzyMatching.sql](FuzzyMatching.sql) script.
 2. Populate [dbo].[Dataset_A] and [dbo].[Dataset_B] tables (via Tasks -> Import Data in SQL Server Management Studio)
 3. (optional) import [cambs_postcodes.csv](cambs_postcodes.csv) into [dbo].[Cambs_postcodes]	(via Tasks -> Import Data in SQL Server Management Studio)
-   *![SSMS_import_settings:Flat file source](SSMS_import_settings.png)
-   *![SSMS import settings:SQL Server destination](SSMS_import_settings_1.png)
-   *![SSMS import settings:Select tables ](SSMS_import_settings_2.png)
-   *![SSMS import settings:Column mappings ](SSMS_import_settings_3.png)
+   ![SSMS_import_settings:Flat file source](SSMS_import_settings.png)
+   ![SSMS import settings:SQL Server destination](SSMS_import_settings_1.png)
+   ![SSMS import settings:Select tables ](SSMS_import_settings_2.png)
+   ![SSMS import settings:Column mappings ](SSMS_import_settings_3.png)
 4. (optional) execute [dbo].[UpdateDataset_A_in_county] to update Dataset_A in_county flag based on CodePointOpen 
 5. (optional) execute [dbo].[UpdateDataset_B_in_county] to update Dataset_B in_county flag based on CodePointOpen 
 6. Execute [dbo].[MatchingOverview] stored procedure and save results
