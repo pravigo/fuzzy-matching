@@ -156,6 +156,7 @@ Produces summary stats for venn diagram (and to cross check with fuzzy matching 
 #### [dbo].[PerformFuzzyMatching]
 Performs fuzzy matching between Dataset_A and Dataset_B based on demographic data.
 Requires an exact match on date of birth.  Then scores match based on following:
+
 Aspect|Score
 ------|-----
 SOUNDEX(Surname)|128
