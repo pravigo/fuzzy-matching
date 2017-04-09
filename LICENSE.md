@@ -1,5 +1,5 @@
-#License
-##[cambs_postcodes.csv](cambs_postcodes.csv)
+# License
+## [cambs_postcodes.csv](cambs_postcodes.csv)
 
 ORDNANCE SURVEY DATA LICENCE
 
@@ -12,14 +12,14 @@ Contains National Statistics data © Crown copyright and database right 2017.
 
 Feb 2017
 
-##[dbo].[HarmonisePostcode] within [FuzzyMatching.sql](FuzzyMatching.sql) 
+## [dbo].[HarmonisePostcode] within [FuzzyMatching.sql](FuzzyMatching.sql) 
 Contains code adapted from http://www.hexcentral.com/articles/sql-postcodes.htm
 
-##[dbo].[IntToBinary] within [FuzzyMatching.sql](FuzzyMatching.sql) 
+## [dbo].[IntToBinary] within [FuzzyMatching.sql](FuzzyMatching.sql) 
 
 Source: https://www.codeproject.com/Articles/210406/INT-to-BINARY-string-in-SQL-Server
 License: [The Code Project Open License (CPOL) 1.02](https://www.codeproject.com/info/cpol10.aspx)
 
-##All other code:
+## All other code:
 
 [Open Government License](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
